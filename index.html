@@ -98,6 +98,20 @@
             background: #020617;
             color: #94a3b8;
         }
+        .brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.brand img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
     </style>
 </head>
 
@@ -106,9 +120,10 @@
 
 <header>
 
-    <div class="logo">
-        WorldBank
-    </div>
+    <div class="brand">
+    <img src="logo.png" alt="WorldBank">
+    <span>WorldBank</span>
+</div>
 
     <nav>
         <a href="#">Inicio</a>
